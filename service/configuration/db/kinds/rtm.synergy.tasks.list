@@ -1,0 +1,8 @@
+{
+    "id": "net.webos24.synergy.rtm.tasks.list:1",
+    "indexes": [{ 
+       "name": "accountId",
+       "props": [{ "name": "accountId"}]}], 
+    "sync": true,
+    "extends": ["com.palm.tasklist:1"]
+}

@@ -1,0 +1,22 @@
+{
+    "templateId": "net.webos24.synergy.rtm.tasks.account",
+    "loc_name": "Remember The Milk",
+    "icon": {"loc_32x32": "images/rtm.png"},
+    "validator": "palm://net.webos24.synergy.rtm.tasks.service/validator",
+    "readPermissions": ["net.webos24.synergy.rtm.tasks.service","net.webos24.synergy.rtm.tasks.app","com.palm.app.tasks"],
+    "writePermissions": ["net.webos24.synergy.rtm.tasks.service","net.webos24.synergy.rtm.tasks.app","com.palm.app.tasks"],
+    "onCapabiltiesChanged" : "palm://net.webos24.synergy.rtm.tasks.service/onCapabiltiesChanged",       
+    "onCredentialsChanged" : "palm://net.webos24.synergy.rtm.tasks.service/onCredentialsChanged",   
+    "capabilityProviders": [{
+        "capability": "TASKS",
+		"subKind"	: "net.webos24.synergy.rtm.tasks.db:1",
+        "id"        : "net.webos24.synergy.rtm.tasks.provider",
+        "onCreate"  : "palm://net.webos24.synergy.rtm.tasks.service/onCreate",  
+        "onEnabled" : "palm://net.webos24.synergy.rtm.tasks.service/onEnabled", 
+        "onDelete"  : "palm://net.webos24.synergy.rtm.tasks.service/onDelete",
+        "sync"      : "palm://net.webos24.synergy.rtm.tasks.service/sync", 
+        "dbkinds": {  
+                "task": "net.webos24.synergy.rtm.tasks:1"
+        }
+    }]
+}

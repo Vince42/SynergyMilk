@@ -1,0 +1,8 @@
+{
+    "id": "net.webos24.synergy.rtm.tasks.transport:1",
+    "indexes": [{ 
+       "name": "accountId",
+       "props": [{ "name": "accountId"}]}
+       ]
+}
+

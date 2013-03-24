@@ -1,0 +1,12 @@
+{
+    "id": "net.webos24.synergy.rtm.tasks.app",
+    "version": "0.1.2",
+    "vendor": "webos24.net",
+    "type": "web",
+    "main": "index.html",
+    "title": "webos24.net Synergy Milk",
+	"about": "<a href='http://wiki.webos24.net' onfocus='this.blur()'>http://wiki.webos24.net</a>",
+	"donate": "<a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6QEXUDEA64QMS'><br/><img src='https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif' style='padding: 5px; margin: 10px;'/></a>",
+    "uiRevision": "2",
+    "icon": "icon.png"
+}

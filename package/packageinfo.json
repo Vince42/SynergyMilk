@@ -1,0 +1,10 @@
+{
+  "accounts": ["net.webos24.synergy.rtm.tasks.account"],
+  "app": "net.webos24.synergy.rtm.tasks.app",
+  "id": "net.webos24.synergy.rtm.tasks",
+  "loc_name": "webos24.net Synergy Milk",
+  "package_format_version": 2,
+  "services": ["net.webos24.synergy.rtm.tasks.service"],
+  "vendor": "webos24.net",
+  "version": "0.1.2"
+}
