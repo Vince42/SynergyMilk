@@ -171,7 +171,7 @@ enyo.kind({
 				f.result.frob = f.result.responseJSON.rsp.frob;
 				console.error('FROB:'+f.result.frob);
 				var url = "http://www.rememberthemilk.com/services/auth/?";
-				var obj = {perms:'read', frob: f.result.frob};
+				var obj = {perms:'delete', frob: f.result.frob};
 				this.sign(obj);
 				for(var i in obj)
 					if(obj.hasOwnProperty(i))
@@ -197,7 +197,7 @@ enyo.kind({
 		var f1 = this.Ajax.get(url);
 		f1.then(this, function(f) {
 			if(f.result.status==200) {
-//				console.error('RESULT getToken:' + JSON.stringify(f.result.responseJSON));
+				console.error('RTM RESULT getToken:' + JSON.stringify(f.result.responseJSON));
 				if(f.result.responseJSON.rsp.stat==="fail" && f.result.responseJSON.rsp.err.code==="101") {
 					setTimeout(this.tokenClicked.bind(this), 3000);
 				} else {

@@ -6,5 +6,5 @@
   "package_format_version": 2,
   "services": ["net.webos24.synergy.rtm.tasks.service"],
   "vendor": "webos24.net",
-  "version": "0.1.2"
+  "version": "0.2.0"
 }
